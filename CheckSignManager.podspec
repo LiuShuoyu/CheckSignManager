@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
     s.summary      = "A delightful setting interface framework."
     s.homepage     = "https://github.com/LiuShuoyu/CheckSignManager"
     s.license              = { :type => "MIT", :file => "LICENSE" }
-    s.author             = { "Jone.yin" => "yin_jone@163.com" }
+    s.author             = { "liushuoyu" => "13281250969@163.com" }
     s.source       = { :git => "https://github.com/LiuShuoyu/CheckSignManager.git", :tag => s.version }
     s.vendored_frameworks = 'CheckSignManager.framework'
     s.frameworks = 'Foundation'
