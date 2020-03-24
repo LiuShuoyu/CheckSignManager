@@ -10,8 +10,8 @@ Pod::Spec.new do |s|
     s.vendored_frameworks = 'CheckSignManager.framework'
     s.frameworks = 'Foundation'
     s.platform     = :ios
+    s.dependency 'PLPlayerKit', '3.3.1'
     s.dependency 'AFNetworking'
-    s.dependency 'PLPlayerKit', '~> 3.3.1'
     s.requires_arc = true
 end
 
