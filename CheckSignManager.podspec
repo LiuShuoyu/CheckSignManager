@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name         = "CheckSignManager"
-    s.version      = "0.0.4"
+    s.version      = "0.0.5"
     s.ios.deployment_target = '8.0'
     s.summary      = "A delightful setting interface framework."
     s.homepage     = "https://github.com/LiuShuoyu/CheckSignManager"
@@ -10,6 +10,7 @@ Pod::Spec.new do |s|
     s.vendored_frameworks = 'CheckSignManager.framework'
     s.frameworks = 'Foundation'
     s.platform     = :ios
+    s.dependency 'PLPlayerKit', '3.3.1'
     s.dependency 'AFNetworking'
     s.requires_arc = true
 end
